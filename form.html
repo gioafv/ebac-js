@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EBAC - Comparador de valores</title>
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form id="formulario">
+                <div id="info-title">
+                    <h1>Compare valores!</h1>
+                    <h2>O segundo valor deve ser maior que o primeiro!</h2>
+                </div>
+                <input
+                    id="campoA"
+                    type="number"
+                    placeholder="Insira o primeiro valor"
+                />
+                <input
+                    id="campoB"
+                    type="number"
+                    placeholder="Insira o segundo valor"
+                />
+                <button type="submit" id="botaoSubmit">
+                    Enviar comparação
+                </button>
+                <p id="mensagem"></p>
+            </form>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

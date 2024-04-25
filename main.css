@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: block;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px; /* Reduzi a margem superior para facilitar a visualização */
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+#info-title {
+    margin-bottom: 30px;
+    font-size: 12px;
+    flex-direction: row;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid rgb(171, 86, 86);
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 50px;
+    max-width: 550px;
+}
+
+#botaoSubmit {
+    background-color: brown;
+    color: white;
+    font-weight: 1000;
+    padding: 10px;
+    border: 2px solid brown;
+}
+
+#mensagem {
+    max-width: 550px;
+    margin-top: 15px;
+}
